@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*==========================================*/
+/* clearfix */
+
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/*==========================================*/
+/* 基本設定 */
+
+/*
+html, body {
+	width:100%;
+	min-width:956px;
+}
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size:13px;
+}
+
+h1 {
+	
+}
+
+h2 {
+	font-size:13px;
+	font-weight:normal;
+}
+
+a {
+	color:#fff;
+	text-decoration:none;	
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+img {
+	border:none;
+}
+
+.topLevelBlock {
+	width:100%;	
+	min-width:956px;
+}
+
+.wrapper {
+	margin:0 auto;
+	width:956px;	
+}
+
+.block > li {
+	width:312px;
+	height:312px;
+	float:left;
+}
+*/
+
+
+
+/*==========================================*/
+/* footer下付き設定 */
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+#pageWrap {
+    width: 100%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+}
+
+ 
+#contents {
+    padding-bottom: 28px;
+}
+ 
+#footer {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    background-color: #5caa52;
+}
+ 
+* html #footer {
+    bottom:expression(document.getElementById("container").offsetHeight % 2 == 0 ? 0 : -1);
+}

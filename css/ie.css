@@ -1,0 +1,81 @@
+/* CSS Document */
+
+@charset "UTF-8";
+
+/********************************************/
+/* トップページ用                           */
+/********************************************/
+
+/*==========================================*/
+/* スライドショー */
+
+
+
+/*==========================================*/
+/* コンテンツ */
+
+
+/*==========================================*/
+/* ニュース */
+
+
+
+/********************************************/
+/* Odds and Ends                           */
+/********************************************/
+
+
+
+/********************************************/
+/* JOURNAL                                  */
+/********************************************/
+.single-journal  #contents .contentBlock span {
+/*#pageJournal-mark-mcnairy #contents .contentBlock span {*/
+	display:block;
+	width:312px;
+	float:left;
+	margin-right:10px;
+}
+.single-journal #contents .contentBlock span.no {
+	margin-right:0px;
+}
+
+.single-journal #contents .contentBlock span.left {
+	float:left;	
+}
+.single-journal #contents .contentBlock span.right {
+	float:right;
+	margin-right:0px;
+}
+
+#pageJournal-mark-mcnairy #contents #block-2 .section-1 {
+	float:left;
+}
+#pageJournal-mark-mcnairy #contents #block-2 .section-2 {
+	float:right;
+}
+
+#pageJournal-oka-skateboards #contents #block-2 {
+	width:956px;
+}
+#pageJournal-oka-skateboards #contents .contentBlock #img6 {
+	margin-top:20px;	
+}
+
+/********************************************/
+/* about                                    */
+/********************************************/
+
+/* IE7 */
+#pageAbout #contents #aboutSection .ja{
+	letter-spacing:1px;
+	line-height:21px;
+	font-size:12px;
+	margin-bottom:-2px;
+}
+#pageAbout #contents #directorSection .ja{
+	letter-spacing:0px;
+	line-height:21px;
+	font-size:12px;
+	margin-bottom:-2px;
+}

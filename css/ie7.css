@@ -1,0 +1,56 @@
+/* CSS Document */
+
+@charset "UTF-8";
+
+/********************************************/
+/* トップページ用                           */
+/********************************************/
+
+/*==========================================*/
+/* スライドショー */
+
+
+
+/*==========================================*/
+/* コンテンツ */
+
+
+/*==========================================*/
+/* ニュース */
+
+
+
+/********************************************/
+/* Odds and Ends                           */
+/********************************************/
+
+
+
+/********************************************/
+/* JOURNAL                                  */
+/********************************************/
+#pageJournal-mark-mcnairy #contents .wrapper #mainvisual {
+	margin-bottom:145px;
+}
+
+#pageJournal-oka-skateboards #contents .wrapper #article-sns {
+	margin-bottom:102px;
+}
+
+/********************************************/
+/* about                                    */
+/********************************************/
+
+/* IE7 */
+#pageAbout #contents #aboutSection .ja{
+	letter-spacing:1px;
+	line-height:21px;
+	font-size:12px;
+	margin-bottom:-2px;
+}
+#pageAbout #contents #directorSection .ja{
+	letter-spacing:0px;
+	line-height:21px;
+	font-size:12px;
+	margin-bottom:-2px;
+}
